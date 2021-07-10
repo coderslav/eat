@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'default.html' %}
+{% load static %}
 
-</body>
-</html>
+{% block content %}
+<h2>Контакты:</h2>
+<div id="contact-icons-block">
+<img class="contact_icons" id="tel" src="{% static 'css/images/tel.png' %}" alt="Телефон">
+<img class="contact_icons" id="email" src="{% static 'css/images/email.png'%}" alt="Email">
+<img class="contact_icons" id="post" src="{% static 'css/images/post.png' %}" alt="Почта">
+</div>
+    <div id="contact-text-block">
+<div class="contact_text">+123456789</div>
+<div class="contact_text">some@email.test</div>
+<div class="contact_text">улица Создателя Сайтов 18, дом 2 </div>
+    </div>
+{% endblock content %}

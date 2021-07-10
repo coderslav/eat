@@ -1,0 +1,105 @@
+h1 {
+    font-size: 250%;
+    font-family: 'Times New Roman bold', sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    width: 200px;
+    padding-left: 10px;
+    color: black;
+    border-style: double;
+    background-color: white;
+    position: absolute;
+    left: 43%;
+}
+body {
+    background-image: url(images/tablecloth1.jpg);
+}
+nav a{
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 120px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+nav a:hover {
+    left: 0;
+}
+#main {
+    top: 200px;
+    background-color: #4CAF50;
+}
+#about {
+    top: 260px;
+    background-color: #2196F3;
+}
+#contact {
+    top: 320px;
+    background-color: #f44336;
+}
+#photo {
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+    border: dashed black;
+    border-right-color: #4CAF50;
+    border-bottom-color: #f44336;
+    border-left-color: #2196F3;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+#about-hobby {
+    position: absolute;
+    left: 380px;
+    bottom: 129px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 42pt;
+}
+#conclusion {
+    position: absolute;
+    font-family: "Brush Script MT", cursive;
+    font-size: 20pt;
+}
+img {
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+h2 {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    font-family: Courier, monospace;
+    font-size: 32pt;
+}
+.contact_icons {
+    width: 7%;
+    height: 7%;
+    display: block;
+    margin-top: 50px;
+
+}
+#contact-icons-block {
+    margin-top: 230px;
+}
+.contact_text {
+    margin-top: 130px;
+    font-family: Courier, monospace;
+    font-size: 25pt;
+}
+#contact-text-block {
+    position: absolute;
+    bottom: 70px;
+    left: 170px;
+}
+#about-me {
+    font-family: Courier, monospace;
+    font-size: 15pt;
+    margin-top: 230px;
+    margin-left: 50px;
+}

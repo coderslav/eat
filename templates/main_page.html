@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'default.html' %}
+{% load static %}
 
-</body>
-</html>
+{% block content %}
+<img id="photo" src="{% static 'css/images/photo.jpg' %}" alt="Нет фото :(" width="25%" height="25%">
+<div id="about-hobby">Привет, посетитель!<br>
+Я люблю вкусно покушать<br>
+Тут, в принципе, нечего рассказывать<sup>*</sup><br>
+Приятного аппетита!
+</div>
+<div id="conclusion">
+<sup>*</sup>Съешь же ещё этих мягких французских булок да выпей чаю! :)
+</div>
+{% endblock content %}
